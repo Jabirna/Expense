@@ -6,7 +6,7 @@ const AddTransaccton = () => {
     const [amount , setamount]=useState(0);
     
     const {addTransaction} =useContext(GlobalContext);
-
+     console.log("text")
     const onSubmit = e =>{
       e.preventDefault();
 
